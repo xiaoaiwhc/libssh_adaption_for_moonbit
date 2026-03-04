@@ -1,0 +1,31 @@
+# ── CMake / C++ build outputs ─────────────────────────────────────────────────
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# ── MSVC / Windows compiler artifacts ────────────────────────────────────────
+*.obj
+*.map
+*.pdb
+*.ilk
+*.exe
+
+# ── MoonBit build outputs ─────────────────────────────────────────────────────
+target/
+_build/
+.mooncakes/
+
+# ── Generated / machine-specific config files ────────────────────────────────
+openssh_adaption/src/main/moon.pkg.json
+openssh_adaption/src/ffi/c_stub.lib
+openssh_adaption/src/ffi/c_stub.obj
+
+# ── Editor / IDE files ────────────────────────────────────────────────────────
+.vs/
+*.user
+*.suo
+
+# ── OS metadata ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

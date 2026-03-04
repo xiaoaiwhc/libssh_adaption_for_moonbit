@@ -1,0 +1,11 @@
+target/
+.mooncakes/
+_build/
+*.obj
+
+# Generated from src/main/moon.pkg.json.template by setup.ps1
+src/main/moon.pkg.json
+
+# Compiled C stub artifacts
+src/ffi/c_stub.lib
+src/ffi/c_stub.obj

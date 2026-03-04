@@ -1,0 +1,14 @@
+{
+  "is-main": true,
+  "import": [
+    "libssh_mb/openssh/ffi",
+    "libssh_mb/openssh/ssh"
+  ],
+  "link": {
+    "native": {
+      "stub-cc-flags": "-I${VCPKG_INSTALLED}/include",
+      "stub-cc-link-flags": "-L${VCPKG_INSTALLED}/lib src/ffi/c_stub.lib libssh2.lib ${WK_UM_LIB}/WS2_32.Lib ${WK_UM_LIB}/Crypt32.Lib",
+      "cc-link-flags": "-L${VCPKG_INSTALLED}/lib src/ffi/c_stub.lib libssh2.lib ${WK_UM_LIB}/WS2_32.Lib ${WK_UM_LIB}/Crypt32.Lib"
+    }
+  }
+}

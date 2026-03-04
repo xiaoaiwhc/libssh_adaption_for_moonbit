@@ -1,0 +1,10 @@
+{
+  "name": "libssh_mb/openssh",
+  "version": "0.1.0",
+  "readme": "README.md",
+  "repository": "",
+  "license": "Apache-2.0",
+  "keywords": ["ssh", "libssh2", "ffi", "networking"],
+  "description": "MoonBit wrapper for the libssh2 C library",
+  "source": "src"
+}
